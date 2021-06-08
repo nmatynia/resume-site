@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(36, 79, 221);
+    background-color: rgb(79, 66, 181);
     color: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -7,16 +7,31 @@ body{
 #git{
     max-width:50px;
     max-height:50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(28deg) brightness(104%) contrast(102%);
 }
 
 h1{
     font-size: 100px;
     text-align: center;
-    background-image:url();
+    
+}
+header{
+    background-image:url("");
 }
 
 h2{
     text-align: center;
+}
+nav{
+    display: flex;
+    justify-content:center;
+}
+nav li{
+    display: inline
+}
+#about{
+    margin:auto;
+    padding-left: 100px;
 }
 
 footer div, footer figure{
