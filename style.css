@@ -2,6 +2,7 @@ body{
     background-color: rgb(79, 66, 181);
     color: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
 }
 
 #git{
@@ -11,7 +12,7 @@ body{
 }
 
 h1{
-    font-size: 100px;
+    font-size: 110px;
     text-align: center;
     
 }
@@ -23,6 +24,7 @@ h2{
     text-align: center;
 }
 nav{
+    font-size: 25px;
     display: flex;
     justify-content:center;
 }
@@ -33,7 +35,17 @@ nav li{
     margin:auto;
     padding-left: 100px;
 }
+figure{
+    display: flex;
+    justify-content: center;
+}
 
+#techno img{
+    max-width:120px;
+    max-height: 120px;
+    filter: brightness(100%) contrast(100%);
+    padding: 40px;
+}
 footer div, footer figure{
     display: flex;
     justify-content: center;
