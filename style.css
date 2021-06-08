@@ -4,8 +4,22 @@ body{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-#git-logo{
-    max-width: 100%;  
-    height: auto;  
-    color: white;
+#git{
+    max-width:50px;
+    max-height:50px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    background-image:url();
+}
+
+h2{
+    text-align: center;
+}
+
+footer div, footer figure{
+    display: flex;
+    justify-content: center;
 }
