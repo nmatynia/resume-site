@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-    <title>NMatynia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    
+    <title>Norbert Matynia</title>
 </head>
 <body>
-    <header id="home">
-        <h1>Norbert Matynia</h1>
-        <!-- <h2>Portfolio website</h2> --->
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#techno">Technologies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id ="about">
+
+    <!--Navigation-->
+    <nav>
+        <h2>Norbert Matynia</h2>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--About me-->
+    <div class= "about-me">
         <article>
-            <p><em>I am a Software Engineering student that loves challenges. 
-                <br> I am looking for something that would let me developmy skills and build my career. 
-                <br> have slight experience with Linux, ORACLE, MySQL, Git, JavaScript, C++,HTML, and CSS. 
-                <br> I feel most confident with Python since I made a few smaller projects with it. 
-                <br> I love automating stuff that's why I choose Python as my primary goal to master. 
-                <br>But that doesn't mean I'm not open to learningsomething new and interesting!</em></p>
+            <h2>About Me</h2>
+            <p>
+                I am 19 years old Software Engineering student that loves challenges. 
+                Communicative, hardworking, and punctual. I am looking for an opportunity that would let me grow as a developer. 
+                I already experimented with JavaScript, HTML, CSS, Python, and I have done few projects with them. Moreover, 
+                I have a slight experience with Git, Linux, ORACLE and MySQL. Making a website from scratch by myself seems like an exciting thing. 
+                That is why I choose Full Stack Development as my primary goal to master. 
+                But that does not mean I am closed to learning something new and interesting! 
+                Check out my GitHub profile for more information.
+            </p>
         </article>
-    </section>
-    <figure id="techno">
-        <img src ="./logos/js.png" alt="JavaScript">
-        <img src ="./logos/html.png" alt="HTML">
-        <img src ="./logos/css.png" alt="CSS">
-        <img src ="./logos/py.png" alt ="Python">
-    </figure>
-    
-    <footer id ="Contact">
-        <div>email: norbert.matyniaa@gmail.com </div> 
-        <div>phone number: +48732788000</div>
-        <figure><a href = "https://github.com/nmatynia"><img src ="./logos/git-logo.png" id  ="git"></a></figure>
-    </footer>
+        <img src="./images/me.jpg" alt="Me">
+    </div>
+
+    <!--Skills-->
+    <div class="skills">
+        <h2>Skills</h2>
+    </div>
+
+    <!--Projects-->
+    <div class="projects">
+        <h2>Projects</h2>
+    </div>
+
 </body>
 </html>
