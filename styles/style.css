@@ -14,7 +14,7 @@ body{
     line-height: 2;
 }
 
-p::selection { background-color: #323232; color:white}
+h1::selection,p::selection,h2::selection,img::selection,a::selection { background-color: #323232; color:white}
 
 h1{
     font-size: 2rem;
