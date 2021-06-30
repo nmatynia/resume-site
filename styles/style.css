@@ -14,7 +14,7 @@ body{
     line-height: 2;
 }
 
-h1::selection,p::selection,h2::selection,img::selection,a::selection { background-color: #323232; color:white}
+h1::selection,p::selection,h2::selection,img::selection,li::selection, a::selection { background-color: #323232; color:white}
 
 h1{
     font-size: 2rem;
@@ -68,19 +68,19 @@ nav a:hover{
 
 /* About Me */
 
-.about-me{
+#about-me{
     display: flex;
 }
-.about-me h2{
+#about-me h2{
     
 }
-.about-me p{
+#about-me p{
     margin-right: 100px;
     line-height: 1.6;
 
 }
 
-.about-me img{
+#about-me img{
     max-width: 300px;
     max-height: 300px;
     height: auto;
@@ -88,13 +88,13 @@ nav a:hover{
 }
 
 @media screen and (max-width:686px){
-    .about-me{
+    #about-me{
         flex-direction: column;
     }
-    .about-me p{
+    #about-me p{
         margin-right: 0px;
     }
-    .about-me img{
+    #about-me img{
         max-width: 95%;
         max-height: none;
         margin: 30px auto;
@@ -103,24 +103,40 @@ nav a:hover{
 
 /* Skills */
 
-.skills ul{
+#skills ul{
     max-width: 600px;
     display: flex;
     justify-content: space-between;
 }
-.skills li{
+#skills li{
     padding: 10px;
 }
 @media screen and (max-width:686px){
-    .skills {
+    #skills {
         font-size: 2rem;
     }
-    .skills ul{
+    #skills ul{
         
         max-width: 90%;
         flex-wrap: wrap;
     }
 }
 /* Projects  */
-.projects{
+#projects{
 }
+
+/* Contact*/
+#contact i{
+    padding: 5px 20px 5px 0;
+    font-size: 2rem;
+}
+
+#contact li{
+    display: flex;
+    align-items:center;
+}
+
+#contact a{
+    color:inherit;
+}
+
