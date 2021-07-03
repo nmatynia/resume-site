@@ -36,7 +36,7 @@ body{
     color:var(--m-color);
 }
 
-h1::selection,p::selection,h2::selection,img::selection,li::selection, a::selection { background-color: #323232; color:white}
+h1::selection,p::selection,h2::selection,img::selection,li::selection, a::selection { background-color: var(--m-color); color:var(--bg-color)}
 
 h1{
     font-size: 2rem;
