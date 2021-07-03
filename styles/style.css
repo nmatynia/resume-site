@@ -56,7 +56,7 @@ nav a:hover{
 }
 
 
-@media screen and (max-width:686px){
+@media screen and (max-width:703px){
     nav{
        flex-direction: column;
     }
@@ -74,23 +74,21 @@ nav a:hover{
 #about-me{
     display: flex;
 }
-#about-me h2{
-    
-}
+
 #about-me p{
     margin-right: 100px;
-    line-height: 1.6;
+    line-height: 1.8;
 
 }
 
 #about-me img{
     max-width: 300px;
-    max-height: 300px;
+    max-height: 400px;
     height: auto;
     border-radius: 5%;
 }
 
-@media screen and (max-width:686px){
+@media screen and (max-width:703px){
     #about-me{
         flex-direction: column;
     }
@@ -114,7 +112,7 @@ nav a:hover{
 #skills li{
     padding: 10px;
 }
-@media screen and (max-width:686px){
+@media screen and (max-width:703px){
     #skills {
         font-size: 2rem;
     }
