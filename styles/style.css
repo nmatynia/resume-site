@@ -90,8 +90,9 @@ nav a:hover{
     
 }
 @media (pointer:none), (pointer:coarse) {
-    .btn-toggle{
-        display: none;
+    .button{
+        position: absolute;
+        visibility: hidden;
     }
 }
 
@@ -100,10 +101,10 @@ nav a:hover{
        flex-direction: column;
     }
     nav h1{
-        font-size: 5vh;
+        font-size: 9.6vw;
     }
     nav li{
-        font-size: 1.9vh;
+        font-size: 4vw;
         flex-shrink: 0;
     }
 }
