@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <script src="https://kit.fontawesome.com/bdd7906bc2.js" crossorigin="anonymous"></script>
+    <script src="./snake/game.js" defer type ="module"></script>
     <title>Norbert Matynia</title>
 </head>
 <body>
@@ -21,44 +22,52 @@
             <li><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
+    <main>
 
-    <!--About me-->
-    <div id= "about-me">
-        <article>
-            <h2>About Me</h2>
-            <p>
-                I am 19 years old Software Engineering student that loves challenges. 
-                Communicative, hardworking, and punctual. I am looking for an opportunity that would let me grow as a developer. 
-                I already experimented with JavaScript, HTML, CSS, Python, and I have done few projects with them. Moreover, 
-                I have a slight experience with Git, Linux, ORACLE and MySQL. Making a website from scratch by myself seems like an exciting thing. 
-                That is why I choose Full Stack Development as my primary goal to master. 
-                But that does not mean I am closed to learning something new and interesting! 
-                Check out my GitHub profile for more information.
-            </p>
-        </article>
-        <img src="./images/me.jpg" alt="Me">
-    </div>
+        <!--About me-->
+        <section id= "about-me">
+            <article>
+                <h2>About Me</h2>
+                <p>
+                    I am 19 years old Software Engineering student that loves challenges. 
+                    Communicative, hardworking, and punctual. I am looking for an opportunity that would let me grow as a developer. 
+                    I already experimented with JavaScript, HTML, CSS, Python, and I have done few projects with them. Moreover, 
+                    I have a slight experience with Git, Linux, ORACLE and MySQL. Making a website from scratch by myself seems like an exciting thing. 
+                    That is why I choose Full Stack Development as my primary goal to master. 
+                    But that does not mean I am closed to learning something new and interesting! 
+                    Check out my GitHub profile for more information.
+                </p>
+            </article>
+            <img src="./images/me.jpg" alt="Me">
+        </section>
 
-    <!--Skills-->
-    <div id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><i class="fab fa-html5 fa-2x"></i></li>
-            <li><i class="fab fa-css3-alt fa-2x"></i></li>
-            <li><i class="fab fa-js fa-2x"></i></li>
-            <li><i class="fab fa-git fa-2x"></i></li>
-            <li><i class="fab fa-python fa-2x"></i></li>
-            <li><i class="fab fa-github fa-2x"></i></li>
-            <li><i class="fas fa-terminal fa-2x"></i></li>
-            <li><i class="fab fa-linux fa-2x"></i></li>
-        </ul>
-    </div>
+        <!--Skills-->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fab fa-html5 fa-2x"></i></li>
+                <li><i class="fab fa-css3-alt fa-2x"></i></li>
+                <li><i class="fab fa-js fa-2x"></i></li>
+                <li><i class="fab fa-git fa-2x"></i></li>
+                <li><i class="fab fa-python fa-2x"></i></li>
+                <li><i class="fab fa-github fa-2x"></i></li>
+                <li><i class="fas fa-terminal fa-2x"></i></li>
+                <li><i class="fab fa-linux fa-2x"></i></li>
+            </ul>
+        </section>
 
-    <!--Projects-->
-    <div id="projects">
-        <h2>Projects</h2>
-        <!--Somehow insert terminal here with game?-->
-    </div>
+        <!--Projects-->
+        <section id="projects">
+            <h2>Projects</h2>
 
+            <!-- Snake -->
+            <div id ="snake-game">
+                <h3>Snake</h3>
+                <div id="game-board"></div>
+            </div>
+
+        </section>
+
+    </main>
 </body>
 </html>

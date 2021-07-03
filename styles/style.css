@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
+:root{
+    --black: #323232;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -7,7 +10,7 @@ html{
 body{
     font-size: 16px;
     font-family: 'Roboto Mono', monospace;
-    color:#323232;
+    color:var(--black);
     max-width: 950px;
     margin: 0 auto;
     padding: 0 20px;
@@ -140,3 +143,40 @@ nav a:hover{
     color:inherit;
 }
 
+/* Snake */
+
+#snake-game{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+#game-board{
+    border: var(--black) 0.5rem solid;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(21,1fr);
+    grid-template-columns: repeat(21,1fr);
+}
+
+@media screen and (max-width:686px){
+    #snake-game{
+        justify-content: center;
+    }
+    #game-board{
+        border: var(--black) 0.7rem solid;
+        width: 85vmin;
+        height: 85vmin;
+        max-height: none;
+        margin: 30px auto;
+    }
+}
+
+.snake{
+    background-color: var(--black);
+}
+
+.food{
+    background-color:white;
+    border: var(--black) .25vmin solid;
+}
