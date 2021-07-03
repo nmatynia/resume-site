@@ -12,7 +12,6 @@ Here's the link to the site : http://norbertmatynia.me/
 
 
 ## TO-DO:
-* Add dark mode
 * Make snake project playable on moblie devices
 * Make snake project better overall
 * Add descriptions to everything 
