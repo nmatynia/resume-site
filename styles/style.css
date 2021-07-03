@@ -89,8 +89,13 @@ nav a:hover{
     border: 1px gray solid;
     
 }
+@media (pointer:none), (pointer:coarse) {
+    .btn-toggle{
+        display: none;
+    }
+}
 
-@media screen and (max-width:703px){
+@media screen and (max-width:750px){
     nav{
        flex-direction: column;
     }
@@ -122,7 +127,7 @@ nav a:hover{
     border-radius: 5%;
 }
 
-@media screen and (max-width:703px){
+@media screen and (max-width:750px){
     #about-me{
         flex-direction: column;
     }
@@ -146,7 +151,7 @@ nav a:hover{
 #skills li{
     padding: 10px;
 }
-@media screen and (max-width:703px){
+@media screen and (max-width:750px){
     #skills {
         font-size: 2rem;
     }
@@ -191,7 +196,7 @@ nav a:hover{
     grid-template-columns: repeat(21,1fr);
 }
 
-@media screen and (max-width:703px){
+@media screen and (max-width:750px){
     #snake-game{
         justify-content: center;
     }
