@@ -47,7 +47,10 @@ h2{
     font-size: 1.5rem;
     font-weight: 700;
 }
-
+h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
 
 
 /* Navigation */
@@ -163,8 +166,8 @@ nav a:hover{
     }
 }
 /* Projects  */
-#projects{
-}
+/* #projects{
+} */
 
 /* Contact*/
 #contact i{
@@ -189,6 +192,7 @@ nav a:hover{
     margin-bottom:30px;
 }
 #game-board{
+    margin-top: 20px;
     border: var(--m-color) 14.28px solid;
     width: 300px;
     height: 300px;
